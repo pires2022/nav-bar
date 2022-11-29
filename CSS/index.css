@@ -1,0 +1,35 @@
+.nav-item a{
+    color: white;
+}
+
+.nav-item a:hover{
+    color: white;
+}
+
+.nav-item a:visited{
+    color: white;
+}
+
+.carousel-item{
+    height: 30rem;
+}
+.carousel-item img{
+    filter: brightness(50%);
+}
+@media screen and (min-width:900px) {
+    .carousel-caption{
+        margin-bottom: 180px;
+    }
+}
+@media screen and (max-width:900px) {
+    .carousel-item{
+        height: auto;
+    }
+}
+.para{
+    text-align: justify;
+    height: 360px;
+    overflow-y: scroll;
+    border: 5px groove black;
+    text-indent: 20px;
+}
